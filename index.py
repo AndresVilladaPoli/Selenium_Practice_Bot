@@ -57,9 +57,17 @@ lodging2 = bot.find_element(By.XPATH, '//*[@id="btbClosePaxPopup"]')
 lodging2.click()
 time.sleep(2)
 
-Price1 = bot.find_element(By.XPATH, '/html/body/div[3]/div[1]/div[2]/div[4]/div/div/div/div[2]/div[4]/div/div[4]/div/div[2]/div/p[1]/span[2]').text
-print(Price1)
+Price1 = bot.find_element(By.XPATH, '//*[@id="divAirResults"]/div[1]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price2=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[2]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price3=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[3]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price4=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[4]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price5=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[5]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price6=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[6]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price7=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[7]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price8=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[8]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price9=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[9]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
+Price10=bot.find_element(By.XPATH,  '//*[@id="divAirResults"]/div[10]/div/div/div[2]/div/div[1]/div/p[1]/span[2]').text
 
 
 print("")
-print("Los precios de la busqueda son" + Price1)
+print("The search prices are" + Price1 + Price2 + Price3 + Price4 + Price5 + Price6 + Price7 + Price8 + Price9 + Price10)
