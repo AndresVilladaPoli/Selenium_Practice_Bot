@@ -47,7 +47,7 @@ time.sleep(3)
 departureDate1 = bot.find_element(By.XPATH, '/html/body/div[8]/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div[4]/div[2]/div[1]')
 departureDate1.click()
 '''
-##bot.execute_script("window.ScrollTo(0,1)")
+bot.execute_script("window.ScrollTo(0,1000)")
 lodging = bot.find_element(By.XPATH, '//*[@id="txtNumPassengersPaquetesComplete"]')
 lodging.click()
 time.sleep(2)
@@ -56,3 +56,10 @@ lodging1.click()
 lodging2 = bot.find_element(By.XPATH, '//*[@id="btbClosePaxPopup"]')
 lodging2.click()
 time.sleep(2)
+
+Price1 = bot.find_element(By.XPATH, '/html/body/div[3]/div[1]/div[2]/div[4]/div/div/div/div[2]/div[4]/div/div[4]/div/div[2]/div/p[1]/span[2]').text
+print(Price1)
+
+
+print("")
+print("Los precios de la busqueda son" + Price1)
