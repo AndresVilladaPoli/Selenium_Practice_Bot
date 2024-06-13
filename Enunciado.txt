@@ -1,0 +1,16 @@
+Desarrollo de una automatización que mediante un navegador ingresará a Viajes Éxito (https://www.viajesexito.com) 
+en el cual buscará Paquetes de Vuelo+Hotel saliendo del aeropuerto ElDorado de Bogotá con destino al aeropuerto de Punta Cana en República Dominicana.
+
+Las fechas del paquete deberán ser:
+-Saliendo el 20 de junio de 2024
+-Regresando el 27 de junio de 2024
+
+Adicionalmente, será 1 habitación para 2 adultos y otra habitación para 1 adulto. 
+En total, 2 habitaciones para 3 pasajeros.
+
+Una vez la búsqueda sea realizada, por favor por consola muestre el precio de todos los paquetes que le fueron arrojados en la primera página de búsqueda.
+
+Finalmente, por favor ubíquese en las opciones avanzadas y especifique una aerolínea (usted elige cuál) 
+y nuevamente realice la búsqueda, guarde esta información en un archivo plano o en un documento .csv.
+
+Una vez realizada la última búsqueda realice una captura de pantalla, finalice y salga del webdriver de manera correcta, no puede dejar el controlador corriend

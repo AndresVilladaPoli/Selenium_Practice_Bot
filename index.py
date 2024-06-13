@@ -145,4 +145,5 @@ with open(file_path, 'w', encoding='utf-8') as file:
         file.write(f'{price}\n')
 
 bot.save_screenshot("Screenshot.png")
-time.sleep(10)
+time.sleep(7)
+bot.quit()
